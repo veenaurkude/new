@@ -1,0 +1,18 @@
+.signup {
+  margin: 20px;
+  padding-left: 40%;
+  padding-top: 20px;
+  background-color: cadetblue;
+}
+
+input {
+  padding: 10px 50px;
+  margin: auto;
+}
+
+.btn {
+  background-color: #333;
+  color: aliceblue;
+  padding: 5px 10px;
+  cursor: pointer;
+}
