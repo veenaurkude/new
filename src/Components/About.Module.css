@@ -1,0 +1,35 @@
+.About {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid white; */
+  /* width: 1200px; */
+  margin: 20px;
+  border: 2px solid;
+  background-color: white;
+  height: 400px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.imageDescription {
+  margin: 20px;
+  font-size: 800;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main {
+  display: flex;
+  /* justify-content: center; */
+  /* text-align: center; */
+  margin: 20px;
+  color: white;
+  align-items: center;
+  gap: 20px;
+  font-weight: 900;
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+}
