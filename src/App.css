@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #283234;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainDiv {
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-right: 20%;
+  background-color: #333;
+  color: #fff;
+  padding: 40px 60px;
+  border-radius: 25px;
+}
+button {
+  padding: 5px 20px;
+  float: right;
+  /* margin-right: 120px; */
+  border: none;
+  background-color: red;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.failedDiv {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid skyblue;
+  padding-bottom: 30px;
+}
+.heading {
+  margin: auto;
+  /* width: 100vw; */
+  text-align: center;
+  font-size: 60px;
+  /* color: chocolate; */
+  opacity: 50%;
 }
