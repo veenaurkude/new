@@ -1,0 +1,54 @@
+.Main {
+  /* border: 1px solid rgb(216, 66, 66); */
+  margin: auto;
+  width: 800px;
+  height: 400px;
+  margin-top: 8%;
+  background-color: white;
+  box-shadow: 4px 4px 4px 4px rgb(3, 3, 3);
+  gap: 20px;
+}
+
+.Head {
+  margin: 40px;
+  font-size: large;
+  color: darkmagenta;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.Box {
+  /* border: 1px solid; */
+  width: 500px;
+  height: 30px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.Box > input {
+  width: 400px;
+}
+
+.Box > button {
+  width: 90px;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  border-radius: 12px;
+}
+
+.Main > h3 {
+  text-align: center;
+}
+
+.Main > button {
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 90px;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  border-radius: 12px;
+}
