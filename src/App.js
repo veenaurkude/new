@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import "./App.css";
 
 function App() {
+  
+const [count,setCount] = useState(0);
+let array = ["Hello", "Greetings", "Happy Birthday", "Have a blissful Evening", "Enjoy tonight"];
+
+function handleCount(){
+  if(count < array.length - 1){
+    setCount(count + 1);
+  }
+  else{
+    setCount(0);
+  }
+}
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button onClick={handleCount}>Next Greetings</button>
+      <h1>
+        {array[count]}
+      </h1>
     </div>
+      
   );
 }
 
