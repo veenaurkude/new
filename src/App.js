@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
+import { useState } from 'react';
 function App() {
+
+  const [random, setRandom] = useState([]);
+  const genertae = () => {
+    setRandom([...random, Math.round(Math.random() * 100) + 1]);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button onClick={genertae}>Generate No</button>
+      {random.map((el) => (
+        <div className='element'>{el}</div>
+      ))}
     </div>
   );
 }
