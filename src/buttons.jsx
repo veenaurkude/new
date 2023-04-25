@@ -1,0 +1,36 @@
+// import React from 'react';
+
+const buttons = [
+  { id: 1, name: 'Button 1' },
+  { id: 2, name: 'Button 2' },
+  { id: 3, name: 'Button 3' },
+  { id: 4, name: 'Button 4' },
+  { id: 5, name: 'Button 5' },
+  { id: 6, name: 'Button 6' },
+  { id: 7, name: 'Button 7' },
+  { id: 8, name: 'Button 8' },
+  { id: 9, name: 'Button 9' },
+  { id: 10, name: 'Button 10' },
+  { id: 11, name: 'Button 11' },
+  { id: 12, name: 'Button 12' },
+  { id: 13, name: 'Button 13' },
+  { id: 14, name: 'Button 14' },
+  { id: 15, name: 'Button 15' },
+  { id: 16, name: 'Button 16' },
+  { id: 17, name: 'Button 17' },
+  { id: 18, name: 'Button 18' },
+  { id: 19, name: 'Button 19' },
+  { id: 20, name: 'Button 20' },
+  { id: 21, name: 'Button 21' },
+  { id: 22, name: 'Button 22' },
+  { id: 23, name: 'Button 23' },
+  { id: 24, name: 'Button 24' },
+  { id: 25, name: 'Button 25' },
+  { id: 26, name: 'Button 26' },
+  { id: 27, name: 'Button 27' },
+  { id: 28, name: 'Button 28' },
+  { id: 29, name: 'Button 29' },
+  { id: 30, name: 'Button 30' },
+];
+
+export default buttons;
